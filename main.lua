@@ -245,3 +245,6 @@ local main = function()
 end
 
 main()
+
+local fps = require("fps")
+local performance = fps.PerformanceOutput.new();
